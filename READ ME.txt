@@ -1,0 +1,19 @@
+This is a simple calculator created using python.
+
+This code is made with the tkinter library. Here's what it does step by step:
+
+1) Importing Libraries: The code imports the necessary libraries, tkinter for creating the user interface and math for mathematical operations.
+
+2) Global Variables: The code starts with a variable called calc that will hold the calculation entered by the user.
+
+3) Adding Numbers and Symbols: There's a function called addcalc(symbol) that adds numbers and symbols to the calculation variable (calc). It also updates the display on the calculator screen.
+
+4) Evaluating and Displaying Result: The evaluatecalc() function calculates the result of the entered calculation and displays it on the screen. If there's an error in the calculation, it displays "ERROR".
+
+5) Creating the GUI: The code sets up the graphical user interface using buttons and text fields. Each button represents a number or operation.
+
+6) Main Loop: The code enters the main loop with root.mainloop(), which keeps the program running and handles user interactions.
+
+7) User Interaction: You can click the number buttons to input numbers, the operation buttons (+, -, *, /) to choose operations, and other buttons for square root, factorial, clearing, and calculating the result.
+
+8) Display: The result field shows the current calculation or the result of the calculation, and the buttons provide ways to interact with it.
